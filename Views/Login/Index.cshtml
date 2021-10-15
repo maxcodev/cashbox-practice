@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = "Intranet";
+}
+
+<section class="pt-4">
+    <h1>OceanLogin v1.2.0</h1>
+    <div class="pt-2">
+        <h4>Nombre de Caja</h4>
+        <select name="select" id="box">
+            <option value="" disabled selected>...</option>
+            <option value="VMN">Villas Marlin</option>
+            <option value="SPA">Smile Playa</option>
+            <option value="F-CDS">Flamingos CDS</option>
+            <option value="M-SDA">Mocambo SDA</option>
+            <option value="C-CPT">Cabos CPT</option>
+            <option value="TJN">Tijuana</option>
+            <option value="RH">RRHH</option>
+            <option value="P-CUN">Pizzacun</option>
+        </select>
+    </div>
+    <div class="login">
+        <h4>Usuario</h4>
+        <select name="users" id="users">
+            <option value="" disabled selected>...</option>
+            <option value="AOA">Test Adolfo Orrantia</option>
+            <option value="AMZ">Test Andres Menendez</option>
+            <option value="CMS">Test Christian Macias</option>
+            <option value="ECI">Test Elvira Chi</option>
+            <option value="FVZ">Test Fernando Vásquez</option>
+            <option value="FHZ">Test Frida Hernandez</option>
+            <option value="GSH">Test Ginny Smith</option>
+            <option value="INA">Test Ilse Nochebuena</option>
+            <option value="IMO">Test Ingrid Montero</option>
+            <option value="JAA">Test Jared Avila</option>
+            <option value="JOE">Test Jenifer Olalde</option>
+            <option value="JGA">Test Jovana Garcia</option>
+            <option value="KCZ">Test Karina De la Cruz</option>
+            <option value="KNE">Test Karla Navarrete</option>
+            <option value="KCI">Test Keila Chi</option>
+            <option value="KCO">Test Kenya Castillo</option>
+            <option value="LBS">Test Laura Blas</option>
+            <option value="LGZ">Test Leonor Gomez</option>
+            <option value="LVS">Test Llany Vargas</option>
+            <option value="LSZ">Test Ludibeth Sanchez</option>
+            <option value="LCA">Test Luis Caixba</option>
+            <option value="MMZ">Test Marcelino Menendez</option>
+            <option value="MBZ">Test Mariely Borges</option>
+            <option value="MAA">Test Michell Arreola</option>
+            <option value="NGA">Test Nallely Gatica</option>
+            <option value="NPN">Test Nancy Piñon</option>
+            <option value="OTS">Test Orlando Torres</option>
+            <option value="RRZ">Test Rolando Rodriguez</option>
+            <option value="VRZ">Test Valeria Rodriguez</option>
+            <option value="VVA">Test Viridiana Vera</option>
+        </select>
+        <h4>Contraseña</h4>
+        <input id="inputPasswd" type="password">
+        <button onclick="userSelected()">Ingresar</button>
+    </div>
+    <hr>
+</section>
