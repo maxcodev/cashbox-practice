@@ -3,7 +3,7 @@
 
 // Write your JavaScript code.
 const userSelected = () => {
-    const inputPasswd = document.getElementById("inputPasswd");
+    const inputPasswd = document.getElementById('inputPasswd');
     const value = inputPasswd.value;
     console.log(value);
 }
